@@ -1,3 +1,3 @@
 s=" "
-v=s.join("abcdefghsdasdaksld")
+v=s.join("abcdefghghgfhghjghjsdasdaksld")
 print(v)
