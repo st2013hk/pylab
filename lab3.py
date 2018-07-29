@@ -18,6 +18,7 @@ def getAnswer(answerNumber):
         return 'Sammy'
     elif answerNumber == 9:
         return 'Lucky'
-r = random.randint(1, 9)
-fortune = getAnswer(r)
-print(fortune)
+# r = random.randint(1, 9)
+# fortune = getAnswer(r)
+# print(fortune)
+print(getAnswer(random.randint(1, 9)))
