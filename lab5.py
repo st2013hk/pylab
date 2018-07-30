@@ -27,3 +27,9 @@
 # bacon()
 # print(eggs) # prints 'global'
 
+def spam():
+    global eggs
+    eggs = 'spam'
+eggs = 'global'
+spam()
+print(eggs)
