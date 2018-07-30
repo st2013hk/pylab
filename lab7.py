@@ -15,4 +15,4 @@ spam = ['cat', 'bat', 'rat', 'elephant','dog']
 spam[1] = 'aardvark'
 spam[2]=spam[1]
 spam[-1]=12345
-print(spam)
+print(spam[1]+str(spam[-1]))
