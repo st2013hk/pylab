@@ -103,15 +103,23 @@
 #
 # print(v2)
 
-content=input('请输入内容：')
-num=0
-alp=0
-for item in content:
-    p=item.isalpha()
-    t=item.isnumeric()
-    if p==True:
-        alp+=1
-    if t==True:
-        num+=1
-print('number' + str(num))
-print('character' +str(alp))
+# content=input('请输入内容：')
+# num=0
+# alp=0
+# for item in content:
+#     p=item.isalpha()
+#     t=item.isnumeric()
+#     if p==True:
+#         alp+=1
+#     if t==True:
+#         num+=1
+# print('number' + str(num))
+# print('character' +str(alp))
+
+d = {
+
+}
+p = {}
+for k, v in d.items():
+    p.setdefault(k, []).append(v)
+    print(v,k)
