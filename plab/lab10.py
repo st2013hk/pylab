@@ -30,8 +30,8 @@ while go:
         u_c2 = input(">>>>")  # 2
         u_c2 = int(u_c2)
         while go:
-            for i, v in enumerate(dic[li[u_c - 1]][li2[u_c2 - 1]]):
-                print(i, v)
+            for v in enumerate(dic[li[u_c - 1]][li2[u_c2 - 1]]):
+                print(v)
             u_c3 = str(input(">>>>>>"))  # b for back q for quit
             u_c3 = u_c3.lower()
             if u_c3 == "b":
