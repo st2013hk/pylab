@@ -15,7 +15,7 @@ bot.train(conversations)
 #provide the question and chatbot answer
 while True:
    try:
-      s=input('')
+      s=input('I')
       print('Steven:'+s+'')
       response = bot.get_response(s)
       print('HelpDesk:'+str(response))
